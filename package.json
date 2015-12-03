@@ -1,0 +1,54 @@
+{
+  "name": "cauldron",
+  "version": "1.0.0",
+  "description": "A model, controller, view (MCV) framework for React",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest --verbose "
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mxc/cauldron.git"
+  },
+  "keywords": [
+    "React"
+  ],
+  "author": "Mark Clarke",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mxc/cauldron/issues"
+  },
+  "homepage": "https://github.com/mxc/cauldron#readme",
+  "dependencies": {
+    "react": "^0.14.3",
+    "react-dom": "^0.14.3"
+  },
+  "jest": {
+    "scriptPreprocessor": "<rootDir>/node_modules/babel-jest",
+    "unmockedModulePathPatterns": [
+      "<rootDir>/node_modules/react",
+      "<rootDir>/node_modules/react-dom",
+      "<rootDir>/node_modules/react-addons-test-utils"
+    ],
+    "testFileExtensions": ["es6", "js"],
+    "moduleFileExtensions": ["js", "json", "es6"]
+  },
+  "devDependencies": {
+    "babel-jest": "*",
+    "del": "^2.1.0",
+    "gulp": "^3.9.0",
+    "gulp-babel": "^6.1.1",
+    "gulp-browserify": "^0.5.1",
+    "gulp-concat": "^2.6.0",
+    "gulp-connect": "^2.2.0",
+    "gulp-load-plugins": "^1.1.0",
+    "gulp-rename": "^1.2.2",
+    "gulp-uglify": "^1.5.1",
+    "jest-cli": "^0.8.0",
+    "react-addons-test-utils": "^0.14.3"
+   },
+  "peerdependencies": {
+    "react": "^0.14.0",
+    "react-dom": "^0.14.0"
+  }
+}
