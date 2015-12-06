@@ -1,8 +1,8 @@
 {
-  "name": "cauldron",
-  "version": "1.0.0",
+  "name": "cauldron-mvc",
+  "version": "1.0.6",
   "description": "A model, controller, view (MCV) framework for React",
-  "main": "index.js",
+  "main": "lib/index.js",
   "scripts": {
     "test": "jest --verbose "
   },
@@ -11,7 +11,8 @@
     "url": "git+https://github.com/mxc/cauldron.git"
   },
   "keywords": [
-    "React"
+    "React",
+    "mvc"
   ],
   "author": "Mark Clarke",
   "license": "MIT",
@@ -47,14 +48,12 @@
     "del": "^2.1.0",
     "gulp": "^3.9.0",
     "gulp-babel": "^6.1.1",
-    "gulp-browserify": "^0.5.1",
     "gulp-concat": "^2.6.0",
-    "gulp-connect": "^2.2.0",
     "gulp-load-plugins": "^1.1.0",
     "gulp-rename": "^1.2.2",
-    "gulp-uglify": "^1.5.1",
     "jest-cli": "^0.8.0",
-    "react-addons-test-utils": "^0.14.3"
+    "react-addons-test-utils": "^0.14.3",
+    "rename": "^1.0.3"
   },
   "peerdependencies": {
     "react": "^0.14.0",

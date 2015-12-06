@@ -13,7 +13,7 @@ class BaseController extends React.Component {
 		}
 		//set model to object
                 obj = obj? obj: props.model? props.model:context.model;
-		if (obj.addListener=='undefined'){
+		if (!obj.addListener){
 			throw new TypeError("Model object must extend BaseModel or implement addListener");
 		}
 		this.state={

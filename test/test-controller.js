@@ -7,8 +7,8 @@ import BaseController from '../src/base-controller'
 
 class TestController extends BaseController {
 
-        constructor(obj){
-		super(obj);
+        constructor(props,context,obj){
+		super(props,contxt,obj);
         }        
 
         render(){
