@@ -27,6 +27,7 @@
   "jest": {
     "scriptPreprocessor": "<rootDir>/node_modules/babel-jest",
     "unmockedModulePathPatterns": [
+      "<rootDir>/node_modules/fbjs",    
       "<rootDir>/node_modules/react",
       "<rootDir>/node_modules/react-dom",
       "<rootDir>/node_modules/react-addons-test-utils"
@@ -51,6 +52,7 @@
     "gulp-concat": "^2.6.0",
     "gulp-load-plugins": "^1.1.0",
     "gulp-rename": "^1.2.2",
+    "jest": "^0.1.40",
     "jest-cli": "^0.8.0",
     "react-addons-test-utils": "^0.14.3",
     "rename": "^1.0.3"
